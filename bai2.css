@@ -1,0 +1,40 @@
+* { 
+    box-sizing: border-box; 
+    border-box; 
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card{
+  width: 400px;
+
+
+  border: 2px solid #1eff29;
+  border-radius: 10px;
+
+ 
+  padding: 30px 20px;
+  text-align: center;
+  
+}
+
+.service-card h2{
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.service-card p{
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+}
